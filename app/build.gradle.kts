@@ -59,9 +59,12 @@ dependencies {
 
     implementation(Dependencies.Ktor.client)
 
+    implementation(Dependencies.Coil.landscapist)
+
     implementation(Dependencies.Kotlin.serialization)
 
     implementation(Dependencies.Koin.koin)
+    implementation(Dependencies.Koin.compose)
 
     implementation(Dependencies.Kotlin.coroutines)
 

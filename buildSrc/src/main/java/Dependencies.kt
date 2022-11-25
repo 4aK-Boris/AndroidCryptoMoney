@@ -50,6 +50,14 @@ object Dependencies {
         private const val version = "3.3.0"
 
         const val koin = "io.insert-koin:koin-android:$version"
+        const val compose = "io.insert-koin:koin-androidx-compose:$version"
+    }
+
+    object Coil {
+
+        private const val version = "2.1.0"
+
+        const val landscapist = "com.github.skydoves:landscapist-coil:$version"
     }
 
     object Plugins {
